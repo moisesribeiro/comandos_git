@@ -1,0 +1,30 @@
+PASSO A PASSO PARA UTILIZAR O GIT - INICIALMENTE
+
+COMANDOS PARA UTILIZAÇÃO NO WINDOWS:
+
+mkdir => comando para criar uma pasta
+clear => comando para limpar tela
+dir => comando para listar arquivos e diretórios
+cd => comando para entrar num diretório
+cd .. => comando para retornar a um diretório anterior
+ls => lista arquivos dentro de um diretório
+ls -la => lista arquivos ocultos dentro de um diretório
+git status => comando para mostrar o estado atual de como estão meus arquivos e meu respositório
+git add. => comando para adicionar todos os arquivos que estão no diretório que estou trabalhando para serem commitados no git
+git nome_arquivo => comando para adicionar apenas o arquivo que eu quero que seja commitado
+git rm --cached nome_arquivo => comando para tirar os arquivos que estão no stage para serem commitados
+git log => comando para mostrar os logs das mudanças ocorridas no git
+git log --decorate => comando para mostrar logs com mais detalhes
+git log --author="nome_usuário" => comando para mostrar logs de um author específico
+git shortlog => comando para mostrar em ordem alfabética os autores, quantidade de commits que fizeram e quais foram esses commits
+git shortlog -sn => comando para mostrar os commits e os autores, ordenados pela quantidade realizada
+git log --graph => comando para mostrar de forma gráfica com mais detalhes o que esta acontecendo no repositório do git
+git diff => comando para verificar as modificações realizadas no arquivo antes de commitar
+git show => comando para mostrar uma série de informações a respeito do arquivo e repositório
+git checkout nome_arquivo => comando para desfazer as mudanças no arquivo antes da última edição que ainda não foram commitadas
+git reset HEAD nome_arquivo => comando para tirar o arquivo do estado de stage
+git reset --soft nome_hash_arquivo => comando para voltar ao commit anterior desejado
+git reset --mixed nome_hash_arquivo => comando para voltar ao commit com o arquivo alterado e preparado para ser enviado para stage
+git reset --hard nome_hash_arquivo => comando para matar qualquer commit que esteja no arquivo
+git remote add origin nome_ssh_repositório_github => comando para adicionar o repositório github nuvem no local
+git remote -v => comando para verificar o repositório origin ligado no Github
